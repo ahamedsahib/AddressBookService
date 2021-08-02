@@ -28,3 +28,5 @@ select * from Address_Book;
 ------------UC5 Delete Person -------------
 delete from Address_Book  where FirstName='Surya';
 
+--------UC6 Retrieve data by City or state------------
+select * from Address_Book where City='chennai' or StateName='TN';
