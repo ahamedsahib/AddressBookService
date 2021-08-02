@@ -15,8 +15,8 @@ EmailId varchar(20)
 
 ----------UC3 Insert data-----
 Insert into Address_Book values
-('Ahamed','Sahib','Dehiwala','Colombo','Srilanka',6062,9876543210,'asdf@gmail.com'),
-('george','paul','Broadway','chennai','TN',600001,9852343210,'geor@gmail.com'),
+('jhon','cameron','chetpet','chennai','TN',6062,9876543210,'jon@gmail.com'),
+('mike','luther','kodambakkam','chennai','TN',600001,98523210,'mike@gmail.com'),
 ('Surya','S','Parrys','chennai','TN',603002,9876145210,'surya@gmail.com'),
 ('Mohideen','Abdul','Hossur','Banglore','karnataka',56872,983242210,'mohasd@gmail.com');
 
@@ -34,3 +34,5 @@ select * from Address_Book where City='chennai' or StateName='TN';
 ---------UC7 Count rows-------
 select count(City) from Address_Book;
 
+----------UC8 Sort Alphabetical--------
+select * from Address_Book where City='chennai' order by FirstName asc ;
