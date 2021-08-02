@@ -19,3 +19,6 @@ Insert into Address_Book values
 ('george','paul','Broadway','chennai','TN',600001,9852343210,'geor@gmail.com'),
 ('Surya','S','Parrys','chennai','TN',603002,9876145210,'surya@gmail.com'),
 ('Mohideen','Abdul','Hossur','Banglore','karnataka',56872,983242210,'mohasd@gmail.com');
+
+-----------UC4 Update Contact---------
+update Address_Book set EmailId='suri@mail.com' where FirstName='Surya';
