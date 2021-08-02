@@ -24,3 +24,7 @@ Insert into Address_Book values
 update Address_Book set EmailId='suri@mail.com' where FirstName='Surya';
 
 select * from Address_Book;
+
+------------UC5 Delete Person -------------
+delete from Address_Book  where FirstName='Surya';
+
