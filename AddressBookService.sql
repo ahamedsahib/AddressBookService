@@ -12,3 +12,10 @@ ZipCode int,
 Phonenum bigint,
 EmailId varchar(20)
 );
+
+----------UC3 Insert data-----
+Insert into Address_Book values
+('Ahamed','Sahib','Dehiwala','Colombo','Srilanka',6062,9876543210,'asdf@gmail.com'),
+('george','paul','Broadway','chennai','TN',600001,9852343210,'geor@gmail.com'),
+('Surya','S','Parrys','chennai','TN',603002,9876145210,'surya@gmail.com'),
+('Mohideen','Abdul','Hossur','Banglore','karnataka',56872,983242210,'mohasd@gmail.com');
