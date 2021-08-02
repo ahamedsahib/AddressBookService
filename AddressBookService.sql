@@ -22,3 +22,5 @@ Insert into Address_Book values
 
 -----------UC4 Update Contact---------
 update Address_Book set EmailId='suri@mail.com' where FirstName='Surya';
+
+select * from Address_Book;
