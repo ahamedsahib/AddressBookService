@@ -49,3 +49,8 @@ where FirstName ='george' or FirstName='mike';
 
 update  Address_Book set AddressBookName='CompanyCos' , RelationType = 'Profession' 
 where FirstName ='jhon' or FirstName='Mohideen';
+
+--------UC10 Count by Type------------
+Select  RelationType,count(*)as TotalCount  from Address_Book group by RelationType;
+
+Select AddressBookName,count(*)as CountType from Address_Book group by AddressBookName;
